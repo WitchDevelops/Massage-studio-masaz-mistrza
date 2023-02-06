@@ -15,7 +15,7 @@
 
 /* follow the color scheme the user is using */
 html {
-    color-scheme: dark light;
+  /*  color-scheme: dark light; */
 }
 
 body {
@@ -31,4 +31,9 @@ img, picture, svg, video {
 /* forms fields and other elements inherit the font properties */
 input, textarea, button, select {
     font: inherit;
+}
+
+/* reset lists */
+ul, ol, li {
+   list-style: none;
 }
