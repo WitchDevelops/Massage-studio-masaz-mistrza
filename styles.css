@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+/* color palette */
+    --main-dark: #250C10;
+    --main: #8C0375;
+    --contrast: #F29A2E;
+    --contrast-dark: #CE7910;
+    --off-white: #F7FBFE;
+    --grey-200: #E1E5E8;
+    --grey-400: #C0C4C7;
+    --off-black: #250C10;
+
+/* font styles */
+    --ff-main: "Montserrat", Arial, sans-serif;
+    --ff-accent: "Courgette", "Lucida Handwriting", cursive;
+    --fw-light: 200;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
