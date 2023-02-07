@@ -19,6 +19,7 @@
     --fw-bold: 700;
 }
 
+
 body {
     font-family: var(--ff-main);
     font-weight: var(--fw-regular);
@@ -37,3 +38,4 @@ nav a {
     color: var(--off-white);
     text-decoration: none;
 }
+
