@@ -127,7 +127,7 @@ nav a {
 
 #about {
     background:
-        var(--grey-400) url(/src/img/hero-bg.jpg) no-repeat;
+        var(--grey-400) url(./src/img/hero-bg.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     display: grid;
