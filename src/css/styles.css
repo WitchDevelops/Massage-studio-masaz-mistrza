@@ -4,6 +4,7 @@
     /* color palette */
     --main-dark: #250C10;
     --main: #8C0375;
+    --main-hover: #790465;
     --contrast: #F29A2E;
     --contrast-dark: #CE7910;
     --off-white: #F7FBFE;
@@ -27,6 +28,35 @@ html {
 body {
     font-family: var(--ff-main);
     font-weight: var(--fw-regular);
+}
+
+/*******************************************************/
+/******************** button styles ********************/
+/*******************************************************/
+
+.btn {
+    background-color: var(--main);
+    padding: 1rem;
+    max-width: 400px;
+    border-radius: 99px;
+    text-transform: uppercase;
+    color: var(--off-white);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+
+.btn:hover {
+    background-color: var(--main-hover);
+}
+
+.btn:active {
+    -webkit-transform: translate(0px, 2px);
+    -moz-transform: translate(0px, 2px);
+    -ms-transform: translate(0px, 2px);
+    -o-transform: translate(0px, 2px);
+    transform: translate(0px, 2px);
 }
 
 /*******************************************************/
@@ -88,3 +118,47 @@ nav a {
     color: var(--off-white);
     text-decoration: none;
 }
+
+/*******************************************************/
+/********************  main styles  ********************/
+/*******************************************************/
+
+/* hero section */
+
+#about {
+    background:
+        var(--grey-400) url(/src/img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+hgroup {
+    color: var(--off-white);
+    width: 40vw;
+    display: grid;
+}
+
+h1 {
+    font-size: 1.625rem;
+}
+
+.title {
+    font-family: var(--ff-accent);
+    font-size: 6.8rem;
+}
+
+.subtitle {
+    text-align: right;
+    margin-top: 1.8rem;
+}
+
+.hero-p {
+    font-size: 1.625rem;
+    margin-top: 2.7rem;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+}
+
