@@ -11,6 +11,7 @@
     --grey-200: #E1E5E8;
     --grey-400: #C0C4C7;
     --off-black: #250C10;
+    /*check in figma */
 
     /* font styles */
     --ff-main: "Montserrat", Arial, sans-serif;
@@ -18,6 +19,9 @@
     --fw-light: 200;
     --fw-regular: 400;
     --fw-bold: 700;
+
+    /* various utility classes */
+    --nav-height: 5rem;
 }
 
 html {
@@ -33,7 +37,7 @@ body {
 /*******************************************************/
 /******************** button styles ********************/
 /*******************************************************/
-
+/* link styled as a button */
 .btn {
     background-color: var(--main);
     padding: 1rem;
@@ -70,7 +74,6 @@ header {
     align-items: center;
     color: var(--off-whitewhite);
     font-size: 1.1rem;
-    height: 6rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -80,16 +83,16 @@ header {
 }
 
 .logo {
-    width: 25vw;
-    height: 6rem;
+    /* width: 25vw;
+    /* height: 6rem; 
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; */
 }
 
 nav {
-    width: 75vw;
-    height: 6rem;
+    /* width: 75vw; */
+    height: var(--nav-height);
 }
 
 .nav-links {
@@ -105,7 +108,7 @@ nav {
 
 .nav-links li {
     max-width: 400px;
-    padding: 0 3rem;
+    /* padding: 0 3rem; */
     transition-duration: 0.2s;
 }
 
@@ -126,8 +129,10 @@ nav a {
 /* hero section */
 
 #about {
-    background:
-        var(--grey-400) url(../img/hero-bg.jpg) no-repeat;
+    background-color: rgba(18, 23, 37, 0.5);
+    /* change color */
+    background-image: url(../img/hero-bg.jpg);
+    background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
     display: grid;
@@ -137,8 +142,9 @@ nav a {
 
 hgroup {
     color: var(--off-white);
-    width: 40vw;
+    width: 85vw;
     display: grid;
+    text-align: center;
 }
 
 h1 {
@@ -147,18 +153,17 @@ h1 {
 
 .title {
     font-family: var(--ff-accent);
-    font-size: 6.8rem;
+    font-size: clamp(2rem, 80vw, 5rem);
 }
 
 .subtitle {
-    text-align: right;
-    margin-top: 1.8rem;
+    /* text-align: right; */
+    /* margin-top: 1.8rem; */
 }
 
 .hero-p {
-    font-size: 1.625rem;
+    /* font-size: 1.625rem; */
     margin-top: 2.7rem;
     margin-bottom: 2.5rem;
-    text-align: justify;
+    text-align: left;
 }
-
