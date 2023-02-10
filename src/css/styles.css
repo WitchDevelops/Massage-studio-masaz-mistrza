@@ -67,9 +67,10 @@ body {
 /******************** navbar styles ********************/
 /*******************************************************/
 
-header {
+nav {
     background-color: var(--main-dark);
     display: flex;
+    height: var(----nav-height);
     justify-content: space-between;
     align-items: center;
     color: var(--off-whitewhite);
@@ -80,35 +81,21 @@ header {
     -webkit-box-shadow: 2px 2px 24px 0px var(--off-black);
     -moz-box-shadow: 2px 2px 24px 0px var(--off-black);
     box-shadow: 2px 2px 24px 0px var(--off-black);
+padding: 0 10rem;
 }
 
-.logo {
-    /* width: 25vw;
-    /* height: 6rem; 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; */
-}
-
-nav {
-    /* width: 75vw; */
-    height: var(--nav-height);
-}
 
 .nav-links {
     float: right;
 }
 
-.nav-links,
-.nav-links li {
+.nav-links ul {
     display: flex;
+    align-content: center;
     align-items: center;
-    height: 100%;
 }
 
 .nav-links li {
-    max-width: 400px;
-    /* padding: 0 3rem; */
     transition-duration: 0.2s;
 }
 
@@ -117,9 +104,66 @@ nav {
     background-color: var(--main);
 }
 
-nav a {
+.nav-links a {
     color: var(--off-white);
     text-decoration: none;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* burger icon styles */
+#toggle-btn {
+    position: absolute;
+    top: 1.75rem;
+    right: 2rem;
+    display: none; /* hide by default */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--off-white);
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    #toggle-btn {
+        display: flex;
+    }
+
+    .logo {
+        position: absolute;
+        left: 45vw;
+        top: 3vh;
+        opacity: 50%;
+    }
+
+    nav {
+        display: grid;
+        padding: 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links ul {
+        display: grid;
+    }
+
+    .nav-links.active {
+        display: grid;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
 }
 
 /*******************************************************/
@@ -135,6 +179,7 @@ nav a {
     background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
+    width: 100vw;
     display: grid;
     justify-content: center;
     align-content: center;
