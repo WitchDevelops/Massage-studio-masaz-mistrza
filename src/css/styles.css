@@ -81,7 +81,7 @@ nav {
     -webkit-box-shadow: 2px 2px 24px 0px var(--off-black);
     -moz-box-shadow: 2px 2px 24px 0px var(--off-black);
     box-shadow: 2px 2px 24px 0px var(--off-black);
-padding: 0 10rem;
+/* padding: 0 10rem; */
 }
 
 
@@ -164,6 +164,10 @@ padding: 0 10rem;
         width: 100vw;
         height: 100vh;
     }
+
+    .nav-links.active a {
+        text-align: center;
+    }
 }
 
 /*******************************************************/
@@ -179,7 +183,7 @@ padding: 0 10rem;
     background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
     display: grid;
     justify-content: center;
     align-content: center;
@@ -188,6 +192,7 @@ padding: 0 10rem;
 hgroup {
     color: var(--off-white);
     width: 85vw;
+    max-width: 600px;
     display: grid;
     text-align: center;
 }
@@ -196,19 +201,32 @@ h1 {
     font-size: 1.625rem;
 }
 
-.title {
+#studio-masazu,
+#subtitle {
+    font-size: 0.9rem;
+    font-weight: var(--fw-light);
+    letter-spacing: 1.5px;
+}
+
+#studio-masazu {
+text-align: left;
+margin-bottom: 1.2rem;
+}
+
+#title {
     font-family: var(--ff-accent);
     font-size: clamp(2rem, 80vw, 5rem);
 }
 
-.subtitle {
-    /* text-align: right; */
-    /* margin-top: 1.8rem; */
+#subtitle {
+    text-align: right;
+    margin-top: 1.2rem;
 }
 
 .hero-p {
-    /* font-size: 1.625rem; */
-    margin-top: 2.7rem;
-    margin-bottom: 2.5rem;
-    text-align: left;
+    font-weight: var(--fw-light);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
 }
+
