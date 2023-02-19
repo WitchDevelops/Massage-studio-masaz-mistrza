@@ -10,6 +10,7 @@
     --off-white: #F7FBFE;
     --grey-200: #E1E5E8;
     --grey-400: #C0C4C7;
+    --grey-600: #8a8c8e;
     --off-black: #250C10;
     /*check in figma */
 
@@ -139,7 +140,7 @@ nav {
     }
 
     .logo {
-        position: absolute;
+        /* position: fixed; */
         left: 45vw;
         top: 3vh;
         opacity: 50%;
@@ -174,6 +175,10 @@ nav {
 /********************  main styles  ********************/
 /*******************************************************/
 
+section:nth-of-type(even) {
+background-color: var(--grey-400);
+}
+
 /* hero section */
 
 #about {
@@ -199,6 +204,20 @@ hgroup {
 
 h1 {
     font-size: 1.625rem;
+}
+
+h2 {
+    width: 30vw; 
+   text-align: center; 
+   color: var(--off-white);
+   border-bottom: 1px solid var(--off-white); 
+   line-height: 0.1rem;
+   margin: 1rem;
+}
+
+h2 span {
+    background-color: var(--grey-400);
+    padding: 0 0.5rem;
 }
 
 #studio-masazu,
@@ -230,3 +249,48 @@ margin-bottom: 1.2rem;
     text-align: justify;
 }
 
+/* services section */
+.section-header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+.center {
+    margin: auto;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  justify-content: center;
+  
+}
+
+@media (min-width: 700px) {
+    .cards {
+        flex-direction: row;
+        padding: 2rem;
+    }
+}
+
+figure {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    -webkit-box-shadow: 0px 0px 24px 0px var(--grey-600);
+    -moz-box-shadow: 0px 0px 24px 0px var(--grey-600);
+    box-shadow: 0px 0px 24px 0px var(--grey-600);
+}
+
+figcaption {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--main-dark);
+    color: var(--off-white);
+}
