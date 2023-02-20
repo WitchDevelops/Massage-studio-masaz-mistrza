@@ -6,10 +6,6 @@ Work in progress.
 # See it live
 [live page](https://witchdevelops.github.io/Massage-studio-masaz-mistrza/)
 
-# See the design in Figma
-[design idea](https://www.figma.com/file/RVTy9YZKnkGH3eX9DqTsbj/Massage?node-id=0%3A1&t=BYu1UF8ZLoMBGM5H-1)
-
-
 # Tech stack
 * semantic HTML5 markup
 * custom CSS styles
@@ -18,6 +14,14 @@ Work in progress.
 * fully responsive layout
 * hover effects
 * iframe for the map
+
+# See the design in Figma
+[Preliminary design - desktop](https://www.figma.com/file/RVTy9YZKnkGH3eX9DqTsbj/Massage?node-id=0%3A1&t=BYu1UF8ZLoMBGM5H-1)
+
+![https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Design-desktop_01.png](https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Design-desktop_01.png)
+
+# See wireframes
+![https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Wireframes.png](https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Wireframes.png)
 
 # TODO
 * fix mobile navigation
