@@ -15,12 +15,12 @@ Work in progress.
 * hover effects
 * iframe for the map
 
-# See the design in Figma
+# Design in Figma
 [Preliminary design - desktop](https://www.figma.com/file/RVTy9YZKnkGH3eX9DqTsbj/Massage?node-id=0%3A1&t=BYu1UF8ZLoMBGM5H-1)
 
 ![https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Design-desktop_01.png](https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Design-desktop_01.png)
 
-# See wireframes
+# Wireframes
 ![https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Wireframes.png](https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Wireframes.png)
 
 # TODO
