@@ -28,5 +28,6 @@ Work in progress.
 * fix overflow in the contact section
 * add animation to cards in the services section
 * add images
+* optimize images
 * change colour scheme
 * add overlays to images for more professional look
