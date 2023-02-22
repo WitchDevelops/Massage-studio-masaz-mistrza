@@ -322,10 +322,6 @@ figure {
     box-shadow: 0px 0px 24px 0px var(--grey-600);
 }
 
-figure img {
-  
-}
-
 figcaption {
     text-align: center;
     padding: 1rem 0;
@@ -339,6 +335,7 @@ figcaption {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 70vh;
 }
 
 #prices h2>span {
@@ -380,6 +377,17 @@ td:nth-of-type(2) {
 
 /* contact section */
 
+#opening-hours {
+    background-image: url(../img/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+#opening-hours h2 span {
+    background-color: #b79f85;
+}
+
 .tables-contact-sctn {
     display: flex;
     flex-direction: column;
@@ -397,6 +405,7 @@ td:nth-of-type(2) {
 
 article {
     background-color: var(--off-white);
+    opacity: 0.8;
     border-radius: 0.5rem;
     max-width: 400px;
     margin: auto;
@@ -475,8 +484,7 @@ footer hgroup p {
 
 
 footer img {
-    width: 100px;
-
+    width: 300px;
     /* margin: auto; */
 }
 
