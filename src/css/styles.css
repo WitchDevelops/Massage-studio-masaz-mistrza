@@ -316,10 +316,15 @@ figure {
     display: grid;
     justify-content: center;
     align-content: center;
+    border-radius: 0.5rem;
     /* height: 400px; */
     -webkit-box-shadow: 0px 0px 24px 0px var(--grey-600);
     -moz-box-shadow: 0px 0px 24px 0px var(--grey-600);
     box-shadow: 0px 0px 24px 0px var(--grey-600);
+}
+
+figure img {
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 figcaption {
@@ -327,6 +332,7 @@ figcaption {
     padding: 1rem 0;
     background-color: var(--main-dark);
     color: var(--off-white);
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 /* price section */
@@ -343,6 +349,8 @@ figcaption {
     /* change this */
 }
 
+
+
 table h3 {
     padding: unset;
 }
@@ -353,7 +361,7 @@ table {
     opacity: 0.7;
     backdrop-filter: blur(10px);
     margin: auto;
-    max-width: 400px;
+    width: 100%;
     border-radius: 0.5rem;
 }
 
@@ -407,7 +415,7 @@ article {
     background-color: var(--off-white);
     opacity: 0.8;
     border-radius: 0.5rem;
-    max-width: 400px;
+    /* max-width: 400px; */
     margin: auto;
     margin-bottom: 2rem;
     -webkit-box-shadow: 0px 0px 24px 0px var(--grey-600);
@@ -415,6 +423,9 @@ article {
     box-shadow: 0px 0px 24px 0px var(--grey-600);
 }
 
+#prices article {
+    max-width: 600px;
+}
 
 .tables-contact-sctn article:last-of-type {
     margin-bottom: unset;
@@ -425,6 +436,7 @@ article {
         height: 450px;
         margin-bottom: unset;
         margin: unset;
+        width: 500px;
     }
 }
 
