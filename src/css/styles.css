@@ -211,7 +211,7 @@ section:nth-of-type(even) {
 #about {
     background-color: rgba(18, 23, 37, 0.5);
     /* change color */
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../img/bg-hero.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
@@ -335,7 +335,10 @@ figcaption {
 
 /* price section */
 #prices {
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../img/bg-prices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #prices h2>span {
