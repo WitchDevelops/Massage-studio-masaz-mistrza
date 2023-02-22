@@ -371,7 +371,7 @@ td:nth-of-type(2) {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+
     margin: auto;
     justify-content: space-around;
 }
@@ -382,9 +382,8 @@ td:nth-of-type(2) {
     }
 }
 
-.tables-contact-sctn article {
+article {
     background-color: var(--off-white);
-    /* padding-bottom: 2rem; */
     border-radius: 0.5rem;
     max-width: 400px;
     margin: auto;
@@ -402,6 +401,7 @@ td:nth-of-type(2) {
 @media (min-width: 750px) {
     .tables-contact-sctn article {
         height: 450px;
+        margin-bottom: unset;
     }
 }
 
