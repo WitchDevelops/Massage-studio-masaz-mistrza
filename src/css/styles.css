@@ -149,6 +149,10 @@ nav {
     border-radius: 10px;
 }
 
+.logo {
+    height: calc(var(--nav-height) - 0.5rem);
+}
+
 @media (max-width: 700px) {
     #toggle-btn {
         display: flex;
