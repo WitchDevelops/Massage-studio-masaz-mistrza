@@ -130,63 +130,38 @@ nav {
 }
 
 /* burger icon styles */
-#toggle-btn {
+/* #toggle-btn {
     position: absolute;
     top: 1.75rem;
     right: 2rem;
-    display: none;
+    display: none; */
     /* hide by default */
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 21px;
-}
+} */
 
-.bar {
+/* .bar {
     height: 3px;
     width: 100%;
     background-color: var(--off-white);
     border-radius: 10px;
-}
+} */
 
 .logo {
     height: calc(var(--nav-height) - 0.5rem);
 }
 
 @media (max-width: 700px) {
-    #toggle-btn {
-        display: flex;
-    }
+nav {
+    font-size: 0.7rem;
+    width: 100%;
+    opacity: 95%;
+}
 
     .logo {
-        /* position: fixed; */
-        left: 45vw;
-        top: 3vh;
-        opacity: 50%;
-    }
-
-    nav {
-        display: grid;
-        padding: 0;
-    }
-
-    .nav-links {
         display: none;
-    }
-
-    .nav-links ul {
-        display: grid;
-    }
-
-    .nav-links.active {
-        display: grid;
-        justify-content: center;
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .nav-links.active a {
-        text-align: center;
     }
 }
 
