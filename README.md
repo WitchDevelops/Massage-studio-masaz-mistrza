@@ -25,9 +25,9 @@ Work in progress.
 
 # TODO
 * fix mobile navigation
-* fix overflow in the contact section
+* ~~fix overflow in the contact section~~
 * add animation to cards in the services section
-* add images
-* optimize images
+* ~~add images~~
+* ~~optimize images~~
 * change colour scheme
 * add overlays to images for more professional look
