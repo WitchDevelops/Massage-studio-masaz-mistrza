@@ -24,10 +24,10 @@ Work in progress.
 ![https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Wireframes.png](https://github.com/WitchDevelops/Massage-studio-masaz-mistrza/blob/master/Design%20and%20ideas/Design/Wireframes.png)
 
 # TODO
-* fix mobile navigation
+* ~~fix mobile navigation~~
 * ~~fix overflow in the contact section~~
 * add animation to cards in the services section
 * ~~add images~~
 * ~~optimize images~~
 * change colour scheme
-* add overlays to images for more professional look
+* add overlays to images for a more professional look
